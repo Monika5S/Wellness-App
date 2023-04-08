@@ -1,0 +1,114 @@
+body {
+    background: rgb(53, 40, 92);
+    margin: 60px 90px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1,
+h3,
+h4,
+a,
+button,
+.content p,
+.training p {
+    font-weight: bold !important;
+
+}
+
+p,
+a {
+    font-size: 12px;
+}
+
+h4,
+.profile h2,
+.tracker-title {
+    font-size: 18px;
+}
+
+hr {
+    border: 1.5px dashed;
+}
+
+button {
+    margin: 4px;
+}
+
+
+.container {
+    background: #f9f1ff;
+    padding: 65px 90px;
+    font-family: 'Inter', sans-serif;
+}
+
+.col {
+    position: relative;
+}
+
+.content p,
+.training p,
+.profile h2,
+.tracker-title {
+    color: #6A6A6A;
+}
+
+.emoji {
+    font-size: 30px;
+    background: #A167FF;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 3px 5px;
+}
+
+.emoji-header {
+    position: absolute;
+    top: -20px;
+    left: 35%;
+}
+
+.circle-progress-bar {
+    width: 180px;
+    height: 180px;
+    margin: 5% auto;
+    box-shadow: 5px 1px rgb(77, 217, 84),
+        -3px -4px #A167FF;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.tracker-count {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.circle {
+    text-align: center;
+    padding: 20px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #A167FF;
+    box-shadow: -8px 0 lightcoral,
+        -15px 0 darkcyan;
+}
+
+@media(max-width: 976px) {
+    body {
+        margin: 20px;
+
+    }
+
+    .container {
+        padding: 30px;
+    }
+}
