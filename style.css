@@ -49,6 +49,12 @@ button {
     font-family: 'Inter', sans-serif;
 }
 
+.content-wrapper {
+    border: 2px solid #adb5bd;
+    border-radius: 32px;
+    background: white;
+}
+
 .col {
     position: relative;
 }
