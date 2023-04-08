@@ -17,10 +17,9 @@ h3,
 h4,
 a,
 button,
-.content p,
+.places p,
 .training p {
     font-weight: bold !important;
-
 }
 
 p,
@@ -42,7 +41,6 @@ button {
     margin: 4px;
 }
 
-
 .container {
     background: #f9f1ff;
     padding: 65px 90px;
@@ -59,7 +57,7 @@ button {
     position: relative;
 }
 
-.content p,
+.places p,
 .training p,
 .profile h2,
 .tracker-title {
@@ -95,6 +93,12 @@ button {
     font-size: 50px;
     font-weight: bold;
     color: black;
+}
+
+.people-count {
+    color: white !important;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .circle {
